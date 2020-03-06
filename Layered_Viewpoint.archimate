@@ -6,7 +6,7 @@
     <element xsi:type="archimate:BusinessService" name="Buying service" id="d1abbde3-4b51-4cff-867c-29ed2dcdbf1f"/>
     <element xsi:type="archimate:BusinessEvent" name="Bank transfer order" id="3090a0d8-b588-4501-918e-fa3f956f60d1"/>
     <element xsi:type="archimate:BusinessProcess" name="Transfer process" id="b5a53b9a-a5f7-4a83-b769-ddf55196837f"/>
-    <element xsi:type="archimate:BusinessService" name="Arcalibra Transfering service" id="2251f7a0-9fe6-4b20-950b-b900c56cd85f"/>
+    <element xsi:type="archimate:BusinessService" name="ARCALIBRA Transfering service" id="2251f7a0-9fe6-4b20-950b-b900c56cd85f"/>
     <element xsi:type="archimate:BusinessEvent" name="Purchase order" id="a9c2735d-8ad5-4b97-959b-963204798e83"/>
     <element xsi:type="archimate:BusinessProcess" name="Purchase process" id="5de79128-ccac-49e9-8d74-b29a34814bde"/>
     <element xsi:type="archimate:BusinessEvent" id="287b95c7-a165-4859-9f24-6f7b1fb9762e"/>
@@ -15,7 +15,7 @@
     <element xsi:type="archimate:BusinessInteraction" name="Business Interaction" id="64b6cf80-aea2-4f32-a341-a2a25786a7c4"/>
     <element xsi:type="archimate:BusinessActor" name="Client" id="85150a85-ff4d-4d22-a4e1-ca82a8178e62"/>
     <element xsi:type="archimate:BusinessActor" name="ARCAPP Partner" id="35801758-6d6e-4ae1-b22e-42bff4413cf3"/>
-    <element xsi:type="archimate:BusinessEvent" name="Arcalibra offer" id="d08d1802-e696-4159-bc63-7fb330e398eb"/>
+    <element xsi:type="archimate:BusinessEvent" name="ARCALIBRA offer" id="d08d1802-e696-4159-bc63-7fb330e398eb"/>
   </folder>
   <folder name="Application" id="315bae6e-1c48-42d0-8cac-2ff5b2e4381f" type="application">
     <element xsi:type="archimate:ApplicationFunction" name="Credit" id="5082bb6d-6bdf-46a0-ae56-3b755a25b529"/>
@@ -71,7 +71,7 @@
   <folder name="Views" id="4cde5cf5-d485-49fa-b4c5-f36145ba68b8" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="d8c59b4a-7df2-4926-aeb5-8b441f9e1e52">
       <child xsi:type="archimate:DiagramObject" id="6903cf34-9c6c-4116-b84d-142a22f8d1f1" targetConnections="67f17cdd-eea4-488f-8fcd-652cd15bc749" archimateElement="9e6d6c0d-4f52-4658-8cdc-fce8460b2583">
-        <bounds x="732" y="96" width="120" height="55"/>
+        <bounds x="707" y="96" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="c61496d1-ea50-427b-b873-6c2e9a511a69" source="6903cf34-9c6c-4116-b84d-142a22f8d1f1" target="5e313fdf-cecc-4dca-ae64-bd947d608fbc" archimateRelationship="72ad6058-1ab2-490b-8820-1887a22c1aee"/>
         <sourceConnection xsi:type="archimate:Connection" id="92a07245-e400-412d-9d76-2b550cbd7737" source="6903cf34-9c6c-4116-b84d-142a22f8d1f1" target="2a4be42e-5fca-48a3-a129-13daa86ecfb2" archimateRelationship="c00c0cb0-0296-4724-8e3e-1f330b8c2f79"/>
       </child>
@@ -148,11 +148,8 @@
         <bounds x="947" y="288" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="e9e2d7fa-dd86-4633-bb9d-7e36f348d415" source="eb5f3e4e-f6c7-4154-af04-8709b256baf9" target="5e313fdf-cecc-4dca-ae64-bd947d608fbc" archimateRelationship="e320d8f9-a39b-46ad-ad51-6da9d134019f"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="2e958fc2-112d-4dbf-b633-ed8b7c900f0e" archimateElement="64b6cf80-aea2-4f32-a341-a2a25786a7c4">
-        <bounds x="1212" y="264" width="120" height="55"/>
-      </child>
       <child xsi:type="archimate:DiagramObject" id="9fa43732-2acf-4f09-9860-c92910e01711" archimateElement="85150a85-ff4d-4d22-a4e1-ca82a8178e62">
-        <bounds x="779" y="-36" width="120" height="55"/>
+        <bounds x="792" y="-48" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="67f17cdd-eea4-488f-8fcd-652cd15bc749" source="9fa43732-2acf-4f09-9860-c92910e01711" target="6903cf34-9c6c-4116-b84d-142a22f8d1f1" archimateRelationship="d1915c97-6d72-45fd-84ed-48055ae74391"/>
         <sourceConnection xsi:type="archimate:Connection" id="8a8d6fbc-bc17-4ee5-bf5d-c41b30f2e803" source="9fa43732-2acf-4f09-9860-c92910e01711" target="653c64e6-d78e-4049-8e75-f984cce20430" archimateRelationship="6b78fc35-9448-4742-95e7-a67d9b080711"/>
         <sourceConnection xsi:type="archimate:Connection" id="65c46fc3-7ca3-4a22-8a7a-9ba96ce45cd3" source="9fa43732-2acf-4f09-9860-c92910e01711" target="2e2c00c0-8094-4626-b2b3-d5608095cd51" archimateRelationship="2568f9bb-2df2-4262-ad96-60661fc90d4c"/>
